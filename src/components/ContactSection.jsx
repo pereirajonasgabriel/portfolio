@@ -8,6 +8,8 @@ export const ContactSection = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+        // Simulate form submission process
+
         setTimeout(() => {
             Toastify({
                 text: "Message Sent! Thank you for reaching out. I'll get back to you soon.",
